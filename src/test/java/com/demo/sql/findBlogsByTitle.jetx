@@ -1,0 +1,3 @@
+select * from blog #tag where()
+	and instr(title,${p("title")}) > 0
+#end
